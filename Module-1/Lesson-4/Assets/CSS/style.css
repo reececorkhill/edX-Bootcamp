@@ -1,0 +1,153 @@
+/* Resetting default styles for all elements */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* Setting the background color of the body */
+body {
+    background-color: #d9dcd6;
+}
+
+/* Setting a uniform font size for paragraphs */
+p {
+    font-size: 16px;
+}
+
+/* Styling for header section */
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'Arial', 'sans-serif';
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+/* Styling for header section h1 */
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+/* Styling for header section h1 span class*/
+.header h1 .seo {
+    color: #d9dcd6;
+}
+
+/* Styling for nested div within the header */
+.header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif';
+    font-size: 20px;
+}
+
+/* Styling for inline list items within header */
+.header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+/* Styling for hero section */
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-size: cover;
+    background-position: center;
+    /* Added when hero div was replaced with img tag to control how the image was resized */
+    object-fit: cover;
+}
+
+/* Styling for content within the main element */
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/* Styling for sections within content */
+.content section {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif';
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* Styling for h2 headings within content */
+.content h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* Controlling max height for images within content */
+.content img {
+    max-height: 200px; 
+}
+
+/* Floating and adding right margin to elements with class float-left within main */
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+/* Floating and adding left margin to elements with class float-right within main */
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/* Styling for aside element with benefits content */
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif';
+    background-color: #2589bd;
+}
+
+/* Styling for sections within benefits */
+.benefits section {
+    margin-bottom: 32px;
+    color: #ffffff;
+    text-align: center;
+}
+
+/* Styling for h3 headings within benefits */
+.benefit h3 {
+    margin-bottom: 10px;
+}
+
+/* Styling for images within benefits */
+.benefits img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/* Styling for footer section */
+footer {
+    padding: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'Arial', 'sans-serif';
+    text-align: center;
+    color: black;
+}
+
+/* Styling for h4 headings within the footer */
+footer h4 {
+    font-size: 20px;
+    color: black;
+}
+
+/* Styling for paragraphs within the footer */
+footer p {
+    color: black;
+}
