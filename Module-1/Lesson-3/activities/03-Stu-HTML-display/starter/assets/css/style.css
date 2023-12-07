@@ -1,0 +1,48 @@
+header {
+  width: 100%;
+  background-color: lightblue;
+}
+
+h2 {
+  text-align: left;
+}
+
+ul {
+  text-align: right;
+  color: #ffffff;
+}
+
+li {
+  list-style-type: none;
+  font-size: 40px;
+}
+
+img {
+  margin: 0 auto;
+  display: flex;
+}
+
+#item-1 {
+  display: inline;
+  background-color: #e0115f;
+}
+
+#item-2 {
+  display: inline;
+  background-color: #0000ff;
+}
+
+#item-3 {
+  display: inline;
+  background-color: #999900;
+}
+
+#image-1, #image-2, #image-3 {
+  display: grid;
+}
+
+/* BONUS QUESTION - What is the difference between visibility and diplay */
+
+/* The difference between visibility:hidden hides the element, but it still 
+takes up space in the layout. display:none removes the element from the 
+document. It does not take up any space. */
